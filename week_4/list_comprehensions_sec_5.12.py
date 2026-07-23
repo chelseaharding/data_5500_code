@@ -1,3 +1,7 @@
+"""
+List Comprehension
+"""
+
 import random
 
 randoms = []

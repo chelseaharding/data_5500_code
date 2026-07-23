@@ -1,3 +1,7 @@
+"""
+List Searching
+"""
+
 # searching a list
 favorite_colors = ["red", "blue", "green", "purple"]
 print(favorite_colors.index("green"))

@@ -1,3 +1,7 @@
+"""
+Sentinel Values
+"""
+
 # program that executes a while loop with a sentinel
 selection = 0
 while selection != 5:

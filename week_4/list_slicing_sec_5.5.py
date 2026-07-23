@@ -1,3 +1,7 @@
+"""
+List Slicing
+"""
+
 # slicing operator
 scores = [45, 39, 50, 49, 49, 44]
 
