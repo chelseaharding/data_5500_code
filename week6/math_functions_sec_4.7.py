@@ -1,3 +1,7 @@
+"""
+Math Module
+"""
+
 # math module examples
 import math
 

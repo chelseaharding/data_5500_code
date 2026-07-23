@@ -1,3 +1,7 @@
+"""
+Functions
+"""
+
 res1 = 2 ** 2
 res2 = 2 ** 3
 res3 = 2 ** 4

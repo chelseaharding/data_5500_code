@@ -1,3 +1,7 @@
+"""
+Function Defaults
+"""
+
 # function definition
 def biggest(arg1=0, arg2=0, arg3=0, arg4=0):
     num = max(arg1, arg2, arg3, arg4)

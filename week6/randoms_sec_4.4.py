@@ -1,3 +1,7 @@
+"""
+Random Numbers
+"""
+
 import random as r
 
 num = r.randrange(1,4)

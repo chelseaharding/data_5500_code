@@ -1,3 +1,7 @@
+"""
+numPy Speed Test
+"""
+
 import numpy
 import random
 import time

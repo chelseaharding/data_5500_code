@@ -1,3 +1,7 @@
+"""
+numPy Array Initialization
+"""
+
 import numpy
 
 # initialize a numpyarray of size 10

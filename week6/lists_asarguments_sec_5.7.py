@@ -1,3 +1,7 @@
+"""
+Lists as Arguments
+"""
+
 # define a function which takes a list
 def sum_all_values(lst):
     for i in range(len(lst)):

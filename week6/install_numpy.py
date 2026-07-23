@@ -1,3 +1,7 @@
+"""
+Installing numPy for the First Time
+"""
+
 import numpy
 
 import os

@@ -1,3 +1,7 @@
+"""
+numPy Arrays
+"""
+
 import numpy
 import random
 
