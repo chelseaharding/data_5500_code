@@ -1,4 +1,6 @@
-
+"""
+String Character Testing
+"""
 # for isdigit and isalnum every character
 # must be a digit or alpha numeric for the
 # function to return true

@@ -1,3 +1,7 @@
+"""
+Files
+"""
+
 # Opening a file in read mode
 file = open("/home/ubuntu/environment/DATA3500_SU_23/week6/content_videos/example.txt", "r")
 

@@ -1,3 +1,7 @@
+"""
+String Split and Join
+"""
+
 # split
 data_str = "1,2,3,4,5,6"
 lst = data_str.split(",")

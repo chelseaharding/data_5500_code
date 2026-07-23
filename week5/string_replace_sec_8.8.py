@@ -1,3 +1,7 @@
+"""
+String Replacing
+"""
+
 # replace() function
 phrase = "This class is ok"
 print("phrase: ", phrase)

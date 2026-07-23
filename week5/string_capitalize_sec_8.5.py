@@ -1,3 +1,7 @@
+"""
+String Capitalize
+"""
+
 # captalize function
 name = "Chelsea Harding"
 

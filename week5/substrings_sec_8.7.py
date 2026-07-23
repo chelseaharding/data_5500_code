@@ -1,3 +1,7 @@
+"""
+String Substrings
+"""
+
 # string.count() function
 phrase = "to be or not to be that is the question"
 

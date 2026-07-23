@@ -1,3 +1,7 @@
+"""
+String Comparisons
+"""
+
 # string comparison
 
 if "chelsea " == "Chelsea":

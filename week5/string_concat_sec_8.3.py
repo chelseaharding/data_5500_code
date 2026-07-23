@@ -1,3 +1,7 @@
+"""
+String Concatenation
+"""
+
 # string concat
 first_name = "Chelsea"
 last_name = "Harding"

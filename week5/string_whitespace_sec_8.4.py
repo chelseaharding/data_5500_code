@@ -1,3 +1,7 @@
+"""
+String Whitespace
+"""
+
 # strip whitespace
 pi = "\t\n\t 3.1415 \t\n\t"
 print(pi)

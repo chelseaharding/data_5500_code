@@ -1,3 +1,7 @@
+"""
+Files with open
+"""
+
 # open and write to file1
 file1 = open("output1.txt", "w")
 file1.write("hello\n")

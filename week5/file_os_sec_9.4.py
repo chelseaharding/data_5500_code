@@ -1,3 +1,7 @@
+"""
+Files OS Module
+"""
+
 import os
 
 # os.rename("output1.txt", "output_renamed.txt")
