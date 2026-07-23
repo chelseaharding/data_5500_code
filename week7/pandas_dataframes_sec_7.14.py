@@ -1,15 +1,13 @@
+"""
+Intro to Data Science: Pandas DataFrames
+"""
+
 # import pandas
 import pandas as pd
 
-# create a small dataset
 
-data = {
-    "Name": ["Big Blue", "Bob", "Sally", "James"],
-    "Age": [23, 45, 53, 95],
-    "Score": [90, 88, 94, 79]
-}
 
-df = pd.DataFrame(data)
+
 print("df:", df)
 
 # index
