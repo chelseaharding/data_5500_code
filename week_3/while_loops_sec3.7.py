@@ -1,3 +1,7 @@
+"""
+While Loops
+"""
+
 how_ya_doin = "super"
 while how_ya_doin == "great":
     print("I'm so happy!")

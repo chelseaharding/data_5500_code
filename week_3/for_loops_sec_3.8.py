@@ -1,3 +1,7 @@
+"""
+For Loops
+"""
+
 #for loop through a string
 name = "Chelsea Harding"
 for n in name:
@@ -20,3 +24,17 @@ while i < 11:
     print("i: ", i)
     i += 1
     
+#grades
+grades = [50.0, 45.0, 48.0, 10.0]
+
+#adding grades
+tot = 0.0
+num_grades = 0
+for grad in grades:
+    tot += grad
+    num_grades += 1
+
+#finding average
+avg = tot / num_grades
+print("average grade is: ", avg)
+

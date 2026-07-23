@@ -4,6 +4,10 @@ and why we are doing it.  Notice it uses 3 single quotes
 above and below, and everything in between is a comment.
 '''
 
+"""
+Variables
+"""
+
 # interactive console
 # to use this, open new tab -> New Terminal -> type "python"
 # 
@@ -12,7 +16,7 @@ print(3 + 5)
 
     
 # variable assignment
-age = 25
+age = 35
 
 val = 2
 # for i in range(1, 1000000):
@@ -41,8 +45,47 @@ i_love_variables_10 = 3.1415
 
 camelCase = "abcdefg"
 
-typeCar = "Honda Accord"
+typeCar = "Manual Ford Bronco, two-door Heritage edition"
 
 # types
 print(type(age))
 print(type(typeCar))
+
+"""
+Arithmetic
+"""
+
+# addition
+age = 20 + 10
+print("age: ", age)
+
+# subtraction
+age = age - 1
+print("age: ", age)
+
+# multiplication
+x = 3 * 2
+print("x: ", x)
+
+# division
+x = 5 / 2
+print("x: ", x)
+
+# floor
+x = 5 // 2
+print("x: ", x)
+
+# modulus operator
+x = 5 % 2
+print("x: ", x)
+
+# Exceptions
+# x = 5 / 0
+# print("x: ", x)
+
+
+# Operator precedence: PEMDAS, left -> right if precendence is same
+x = (2 + 1) ** 2
+print("x: ", x)
+
+age = 39 + 1 + 1

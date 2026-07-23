@@ -1,3 +1,7 @@
+"""
+Input
+"""
+
 # input function, getting input from user
 response = input("Enter your name: ")
 print("Hello ", response)
@@ -25,3 +29,14 @@ print("pi2: ", pi2)
 print(type(pi2))
 
 
+"""
+Dynamic Types
+"""
+
+#dynamic type examples
+pi = input("Enter pi: ")
+print(type(pi))
+print("pi: ", pi)
+pi = eval(pi)
+print(type(pi))
+print("pi: ", pi)

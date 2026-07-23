@@ -1,9 +1,34 @@
+"""
+If Statements
+"""
+# if stmt
+if 5 > 10: #False
+    print("5 is greater")
+
+if 10 > 5: #True
+    print("10 is greater")
+    
+print(10 < 5)
+print(10 > 5)
+print(10 >= 5)
+print(10 <= 5)
+print(10 == 5)
+print(10 != 5)
+
+"""
+If Else Statements
+"""
+
 # if else
 status = "doing Great!!!"
 if status == "struggling":
     print("Ask for help, and you will get help!")
 else:
     print("Glad you are doing well!")
+
+"""
+If Else If (elif)
+"""
 
 # if elif else
 num_grade = 95
