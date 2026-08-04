@@ -1,9 +1,3 @@
-'''
-This is a comment to talk about what this program does
-and why we are doing it.  Notice it uses 3 single quotes
-above and below, and everything in between is a comment.
-'''
-
 """
 Variables
 """
