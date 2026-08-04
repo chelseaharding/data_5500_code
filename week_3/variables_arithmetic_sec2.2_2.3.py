@@ -2,55 +2,29 @@
 Variables
 """
 
-# interactive console
-# to use this, open new tab -> New Terminal -> type "python"
-# 
-
-print(3 + 5)
-
-    
-# variable assignment
-age = 35
+age = 56
+print(age)
 
 val = 2
-# for i in range(1, 1000000):
-#     val = val ** i
-#     print(val)
-#     input()
+print(val)
 
-# variable results from expression
-num1 = 3 + 5
+val = 5
+print(val)
 
-print("num1: ", num1)
-# variable created from other variables
-x = 3
-y = 5
-z = x + y
-
-
-# printing variables
-
-print("z: ", z)
-
-# variable names
-str1 = "Hello world"
+# naming conventions
+str1 = "hello world"
 _var1 = 10
-i_love_variables_10 = 3.1415
+i_love_variables = 3.1415
 
 camelCase = "abcdefg"
-
-typeCar = "Manual Ford Bronco, two-door Heritage edition"
-
-# types
-print(type(age))
-print(type(typeCar))
+first_name = "chelsea"
 
 """
 Arithmetic
 """
 
 # addition
-age = 20 + 10
+age = 20 + 20
 print("age: ", age)
 
 # subtraction
@@ -72,14 +46,3 @@ print("x: ", x)
 # modulus operator
 x = 5 % 2
 print("x: ", x)
-
-# Exceptions
-# x = 5 / 0
-# print("x: ", x)
-
-
-# Operator precedence: PEMDAS, left -> right if precendence is same
-x = (2 + 1) ** 2
-print("x: ", x)
-
-age = 39 + 1 + 1
