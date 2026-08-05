@@ -2,41 +2,33 @@
 Input
 """
 
-# input function, getting input from user
-response = input("Enter your name: ")
-print("Hello ", response)
+# # get user input
+# name = input("Enter your first name: ")
+# print("your name is: ", name)
 
+# # type function
+# print(type(name))
 
-# input a string
-print(type(response))
-
-# input a number: integer or float
-age = input("Please enter your age: ")
-age = int(age)
-
-print(type(age))
-
-print("In one year you will be: ", age + 1)
-
-pi = input("Enter pi: ")
-pi = float(pi)
-print("pi: ", pi)
-
-# eval function
-pi2 = input("Enter pi again: ")
-pi2 = eval(pi2)
-print("pi2: ", pi2)
-print(type(pi2))
-
+# # age
+# age = input("Enter your age: ")
+# print(type(age))
 
 """
-Dynamic Types
+Dynamic Typing!
 """
 
-#dynamic type examples
-pi = input("Enter pi: ")
+pi = eval(input("Enter pi: "))
 print(type(pi))
-print("pi: ", pi)
-pi = eval(pi)
-print(type(pi))
-print("pi: ", pi)
+
+fav_number = int(input("Enter your favorite number: "))
+print("Fav num: ", fav_number)
+float(fav_number)
+print("Fav num: ", float(fav_number))
+
+"""
+str()
+int()
+float()
+bool()
+eval()
+"""
