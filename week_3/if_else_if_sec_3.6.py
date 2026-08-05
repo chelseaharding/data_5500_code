@@ -1,62 +1,48 @@
 """
 If Statements
 """
-# if stmt
-if 5 > 10: #False
-    print("5 is greater")
 
-if 10 > 5: #True
-    print("10 is greater")
-    
+if 5 < 10:
+    print("five is greater")
+    print("its a great day")
+
+if 10 > 5:
+    print("ten is greater")
+
+
 print(10 < 5)
 print(10 > 5)
-print(10 >= 5)
 print(10 <= 5)
+print(10 >= 5)
 print(10 == 5)
 print(10 != 5)
 
 """
-If Else Statements
+If Else
 """
 
-# if else
-status = "doing Great!!!"
-if status == "struggling":
-    print("Ask for help, and you will get help!")
+grade = 95
+
+if grade >= 95:
+    print("You have an A in the class! Great work!")
 else:
-    print("Glad you are doing well!")
+    print("You are still learning a lot!")
 
 """
-If Else If (elif)
+If Elif
 """
 
-# if elif else
-num_grade = 95
-if num_grade >= 90:
-    print("You got an A")
-elif num_grade >= 80:
-    print("You got a B")
-elif num_grade >= 70:
-    print("You got a C")
-elif num_grade >= 60:
-    print("You got a D")
+grade = 45
+
+if grade >= 95:
+    print("A")
+elif grade >= 90:
+    print("A-")
+elif grade >= 80:
+    print("B")
+elif grade >= 70:
+    print("C")
 else:
-    print("You got an F")
+    print("You should go get help! You can totally do this!")
 
 
-# multiple if statments
-bozo_bucket = eval(input("What is the highest bucket you got to? "))
-if bozo_bucket >= 1:
-    print("you win a candy bar")
-if bozo_bucket >= 2:
-    print("you win a card game")
-if bozo_bucket >= 3:
-    print("you win a toy doll")
-if bozo_bucket >= 4:
-    print("you win a kite")
-if bozo_bucket >=5:
-    print("you win a bicycle")
-if bozo_bucket >= 6:
-    print("you win a 50 dollar bill!!!!")
-else:
-    print("sorry")
