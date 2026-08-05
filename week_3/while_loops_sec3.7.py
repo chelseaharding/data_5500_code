@@ -2,15 +2,16 @@
 While Loops
 """
 
-how_ya_doin = "super"
-while how_ya_doin == "great":
-    print("I'm so happy!")
+# condition = input("How are you today: ")
+
+# while condition == "Happy":
+#     print("WOW I'M SO HAPPY THAT YOU'RE HAPPY!!!!!")
+
 
 age = 5
+
 while age < 100:
-    print("age: ", age)
+    print("age:", age)
     age = age + 1
 else:
-    print("your age is now 100!", age)
-
-print("age: ", age)
+    print("Hey! You got old!")
