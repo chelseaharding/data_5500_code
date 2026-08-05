@@ -2,39 +2,26 @@
 For Loops
 """
 
-#for loop through a string
 name = "Chelsea Harding"
-for n in name:
-    print(n, end="")
-    
+for letter in name:
+    print(letter, end="")
+
+
 print()
 
-#for loop through a list
-fav_colors = ["aggie blue", "fighting white", "purple"]
+
+fav_colors = ["Aggie Blue", "Fighting White", "Blush Pink"]
 for color in fav_colors:
-    print("color: ", color)
+    print("fav colors:", color)
 
-#for loop using range
-for r in range(1, 11):
-    print("r:", r)
 
-#
-i = 1
-while i < 11:
-    print("i: ", i)
-    i += 1
-    
-#grades
-grades = [50.0, 45.0, 48.0, 10.0]
+# range
 
-#adding grades
-tot = 0.0
-num_grades = 0
-for grad in grades:
-    tot += grad
-    num_grades += 1
+for i in range(10):
+    print(i)
 
-#finding average
-avg = tot / num_grades
-print("average grade is: ", avg)
+num = 0
 
+while num < 10:
+    print(num)
+    num = num + 1
