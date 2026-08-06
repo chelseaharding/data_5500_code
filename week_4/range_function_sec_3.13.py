@@ -2,20 +2,21 @@
 Range Function
 """
 
-#range function
-for i in range(10): # 0 to 9
-    print(i)
-    
+for i in range(10):
+    print("i:", i)
+
 print()
-for i in range(1,11): # 1 to 10 
-    print(i)
-    
+
+for j in range(1, 11):
+    print("j:", j)
+
 print()
-for i in range(0,21,2): # 0 to 20, step by 2
-    print(i, end=" ")
-    
+
+for k in range(2, 20, 2):
+    print("k:", k)
+
+
 print()
-for i in range(10,-11,-2): #from 10 to -10, step down by 2
-    print(i)
-    
-    
+
+for i in range(10, -11, -3):
+    print("i:", i)
