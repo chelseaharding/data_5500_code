@@ -2,64 +2,54 @@
 Boolean Operators
 """
 
-# boolean, True, False
+# boolean variables
 having_a_great_time = True
+
 if having_a_great_time:
     print("Awesome!!")
-    
-ready_to_quit = False
-if ready_to_quit:
-    print("Keep going!!")
 else:
-    print("Keep up the good work!!")
-
-# comparison operators
-age = 25
-old = age > 90
-print("old: ", old)
-
-# and & not
-if having_a_great_time and not ready_to_quit:
-    print("Awesome, keep up the great work!!")
-
-# or statement
-
-print(True or False) #True
-print(True or True) #True
-print(False or True) #True
-print(False or False) #False
-
-#or is like addition
-# 1 + 1 = 1 #boolean
-# 1 + 0 = 1
-# 0 + 1 = 1
-# 0 + 0 = 0
-
-# and statement
-
-print(True and False) #False
-print(True and True) #True
-print(False and True) #False
-print(False and False) #False
-
-#and is like multiplication
-# 1 * 0 = 0
-# 1 * 1 = 1
-# 0 * 1 = 0
-# 0 * 0 = 0
+    print("That's too bad")
 
 
-age = 25
-parent_permission = False # because I don't need permission
-can_you_fly = age > 14 or (age <= 14 and parent_permission)
-print("can_you_fly: ", can_you_fly)
+# comparisons
+age = 45
+old = age > 80
+print("old:", old)
 
-age = 12
-parent_permission = True 
-can_you_fly = age > 14 or (age <= 14 and parent_permission)
-print("can_you_fly: ", can_you_fly)
 
-age = 12
-parent_permission = False
-can_you_fly = age > 14 or (age <= 14 and parent_permission)
-print("can_you_fly: ", can_you_fly)
+# and
+if having_a_great_time and old:
+    print("You are old and having a great time!")
+
+# or
+if having_a_great_time or old:
+    print("you're either having a great time or you're old...i don't know")
+
+# not
+if having_a_great_time and not old:
+    print("You're young and ready to party!")
+
+"""
+or is like addition
+
+1 + 1 = 1
+1 + 0 = 1
+0 + 1 = 1
+0 + 0 = 0
+
+"""
+
+"""
+and is like multiplication
+
+1 * 1 = 1
+1 * 0 = 0
+0 * 1 = 0
+0 * 0 = 0
+
+"""
+
+age = 15
+parent_permission = True
+can_you_drive = age > 16 or (age == 15 and parent_permission)
+print("Can you drive?", can_you_drive)
