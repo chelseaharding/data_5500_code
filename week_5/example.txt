@@ -1,0 +1,4 @@
+My favorite thing to write down is this! :) 
+This is a new line in my file!!! 
+one more new line good sir! 
+See how my old lines are still here? That is append mode! 

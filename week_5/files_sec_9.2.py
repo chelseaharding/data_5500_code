@@ -2,28 +2,33 @@
 Files
 """
 
-# Opening a file in read mode
-file = open("/home/ubuntu/environment/DATA3500_SU_23/week6/content_videos/example.txt", "r")
+#opening a file
+file = open("/workspaces/data_5500_code/week_5/example.txt")
+print(file)
 
-
-# Reading the entire contents of the file
-# content = file.read()
-# print("content:", content)
-
-# Reading the file line by line
+# readlines
 lines = file.readlines()
+print("lines:", lines)
+
 for line in lines:
     print("line:", line)
-    
+
+
 # closing the file
 file.close()
 
-# Opening a file in write mode
-file = open("output.txt", "w")
+# three modes: read, write, append
 
-# Writing data to the file
-file.write("Hello world!\n")
-file.write("This is a new line in my file!!!\n")
+file = open("/workspaces/data_5500_code/week_5/example.txt", "w")
 
-# Closing the file
+# write a new line
+file.write("My favorite thing to write down is this! :) \n")
+file.write("This is a new line in my file!!! \n")
+
 file.close()
+
+# append mode
+
+file = open("/workspaces/data_5500_code/week_5/example.txt", "a")
+file.write("one more new line good sir! \n")
+file.write("See how my old lines are still here? That is append mode! \n")
