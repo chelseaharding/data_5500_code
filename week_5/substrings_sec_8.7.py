@@ -1,68 +1,25 @@
 """
-String Substrings
+Substrings
 """
 
 # string.count() function
 phrase = "to be or not to be that is the question"
 
-ct = phrase.count("to")
-print("ct: ", ct)
+count = phrase.count("to")
+print("count:", count)
 
-ct = phrase.count("to", 1)
-print("ct: ", ct)
+count = phrase.count("to", 1)
+print("count:", count)
 
-ct = phrase.count("to", 13)
-print("ct: ", ct)
+count = phrase.count("to", 14)
+print("count:", count)
 
-# string.index() function
-idx = phrase.index("to")
-print("idx: ", idx)
+# string index function
+index = phrase.index("to")
+print("index:", index)
 
-idx = phrase.index("to", 10)
-print("idx: ", idx)
+index = phrase.index("to", 10)
+print("index:", index)
 
-# string.rindex() function
-idx = phrase.rindex("to")
-print("idx: ", idx)
-
-
-
-# checkpoint activity
-# create a variable that contains the string "row row row your boat"
-# use the count() function to determine how many instances of "row" are in the string
-# use the index() function to find the index of the first "row"
-# use the rindex() function to find the index of the last "row"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# solution
-
-lyrics = "row row row your boat"
-print(lyrics.count("row"))
-print(lyrics.index("row"))
-print(lyrics.rindex("row"))
-
-idx = 0
-for i in range(lyrics.count("row")):
-    idx = lyrics.index("row", idx)
-    print(lyrics[idx:idx+len("row")], "at", idx)
-    idx += 1
+# in
+print("what" in phrase)

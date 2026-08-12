@@ -1,74 +1,20 @@
 """
-String Character Testing
+String Character Test
 """
-# for isdigit and isalnum every character
-# must be a digit or alpha numeric for the
-# function to return true
 
-#isdigit
-string = "-12341234"
+string = "-12345"
 print(string.isdigit())
 
-string = "12341234"
+string = "12345"
 print(string.isdigit())
 
+# is alnum
 
-#isalnum
-address = "123 Main St"
-print(address.isalnum())
-
-
-address = "123MainSt"
-print(address.isalnum())
-
-address = "123 Main St. Logan, Utah"
+address = " 123 N Main St. Logan, Utah"
 print(address.isalnum())
 address = address.replace(" ", "")
-address = address.replace(".", "")
+address = address.replace(".",  "")
 address = address.replace(",", "")
 
 print(address)
-print("address: ", address.isalnum())
-
-
-
-
-
-
-
-
-# checkpoint activity
-# write a program which asks the user to enter their age
-# Using isdigit test to see if they actually entered a number
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# solution
-age = input("Enter your age: ")
-if age.isdigit():
-    print("Thanks for entering a number")
-else:
-    print("You entered something other than a number")
-    
-
-
-
+print(address.isalnum())

@@ -1,59 +1,24 @@
 """
-String Concatenation
+String concatenation
 """
 
-# string concat
+variable = "book"
+
+print("hello", variable, "world")
+
+# string concatenation
 first_name = "Chelsea"
 last_name = "Harding"
 full_name = first_name + " " + last_name
 
-print("full_name:", full_name)
+print("full name:", full_name)
 
+# augmented assignment
 full_name += ", welcome!"
-print("full_name:", full_name)
+print(full_name)
 
-# string multiply
-exclamation = "!"
-print(exclamation)
+fruit = "apple"
+for i in range(10):
+    fruit *= 2
 
-exclamation *= 100
-print(exclamation)
-
-
-
-
-
-
-# checkpoint activity
-# create two variables for your first name and last name
-# and then concatenate them together into a variable called full_name
-# create a variable that stores the string "awesome"
-# multiple that variable by 20 so it is now 20 awesomes.
-# concatenate your full_name, "is", and the new awesome variable
-# and print to the console
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# solution
-first_name = "john"
-last_name = "deere"
-full_name = first_name + " " + last_name
-
-awesome = "awesome "
-awesome *= 20
-msg = full_name + " is " + awesome
-print(msg)
+print(fruit)
