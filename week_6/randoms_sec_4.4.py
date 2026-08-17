@@ -2,11 +2,12 @@
 Random Numbers
 """
 
-import random as r
+import random
 
-num = r.randrange(1,4)
-print("num: ", num)
+# randrange
+rand_num = random.randrange(1, 4)
+print("randrange random:", rand_num)
 
-num2 = r.randint(1,4)
-print("num2: ", num2)
-
+# randint
+rand_num2 = random.randint(1, 4)
+print("randint random:", rand_num2)

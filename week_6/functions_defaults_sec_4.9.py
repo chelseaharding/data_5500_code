@@ -2,26 +2,24 @@
 Function Defaults
 """
 
-# function definition
-def biggest(arg1=0, arg2=0, arg3=0, arg4=0):
-    num = max(arg1, arg2, arg3, arg4)
-    return num
-    
-# function call
-res1 = biggest(2,4,6,8)
-print(res1)
+def biggest(arg1, arg2=0, arg3=0, arg4=0, arg5=0):
+    biggest = max(arg1, arg2, arg3, arg4, arg5)
+    return biggest
 
-res2 = biggest(-1,-2,-3,-4)
-print(res2)
+# large_boi = biggest(1, 5, 45, 1000009, 9)
+# print(large_boi)
 
-res3 = biggest()
-print(res3)
+large_boi = biggest(-1, 5, 45, -1000009, 90)
+print(large_boi)
 
-res4 = biggest(10)
-print(res4)
+large_boi = biggest(-1, 5, 45, -1000009)
+print(large_boi)
 
-res5 = biggest(-10, -5)
-print(res5)
+large_boi = biggest(-1, 5, 45)
+print(large_boi)
 
-res6 = biggest(-10, -5, 100)
-print(res6)
+large_boi = biggest(-1)
+print(large_boi)
+
+large_boi = biggest()
+print(large_boi)

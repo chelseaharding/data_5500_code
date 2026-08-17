@@ -2,22 +2,23 @@
 Functions
 """
 
-res1 = 2 ** 2
-res2 = 2 ** 3
-res3 = 2 ** 4
-print(res1, res2, res3)
+square = 2 ** 2
+cubed = 2 ** 3
+fourth = 2 ** 4
 
 
-#function definition
-def square(arg1, arg2):
-    num = arg1 ** arg2
-    return num
-    
-#function call
-res1 = square(2, 2)
-res2 = square(2, 3)
-res3 = square(2, 4)
-print(res1, res2, res3)
+# function definiton
+# name, arguments, main body of logic, return
 
-for i in range(1, 1000001):
-    print(square(i, 2))
+def square(number):
+    square_num = number ** 2
+    return square_num
+
+print(square(7))
+print(square(10))
+result = square(5)
+result += 4
+print("result:", result)
+
+for i in range(1000):
+    print(square(i))
