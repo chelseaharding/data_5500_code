@@ -24,38 +24,3 @@ print("array time lapsed: ", end2 - start2)
 np1 = numpy.zeros(100)
 np1 = numpy.random.randint(10, size=100)
 print("np1: ", np1)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# checkpoint activity
-# There is no checkpoint activity for this
-# content video.
-# This is just an exercise to show you how
-# powerful numpy arrays can be.
