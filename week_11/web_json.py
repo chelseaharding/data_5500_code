@@ -3,33 +3,23 @@ import json
 import time
     
 ticker = 'AAPL'
-url = 'http://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol='+ticker+'&outputsize=full&apikey=NG9C9EPVYBMQT0C8'
-
-# http://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=AAPL&outputsize=full&apikey=NG9C9EPVYBMQT0C8
+url = "https://financialmodelingprep.com/stable/historical-price-eod/full?symbol="+ticker+"&from=2025-09-23&to=2026-09-23&apikey=x8xwEwpa1ujKsPAqiLDeXut6G2j11qQ1"
 
 
-adj_closed_key = "5. adjusted close"
-time_series_key = "Time Series (Daily)"
-
+# see what it looks like
 stock_txt = requests.get(url).text
-
 stock_dct = json.loads(stock_txt)
+date_key = "date"
+close_key = "close"
 
 
-# print(stock_dct)
+# json.dump(stock_dct, open("stock_dict.json", "w"), indent=4)
 
-for day_key in stock_dct[time_series_key]:
-    print(stock_dct[time_series_key][day_key][adj_closed_key])
-    time.sleep(12)
+data = []
+for dict in stock_dct:
+    data.append(dict[date_key]+", "+str(dict[close_key]))
+    # print(dict[date_key]+", "+str(dict[close_key]))
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
+print(data)
+data = data[::-1]
 
