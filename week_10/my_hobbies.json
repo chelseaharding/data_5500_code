@@ -1,0 +1,15 @@
+{
+  "outdoors": [
+    "run",
+    "disc golf",
+    "ski",
+    "paddleboard",
+    "garden"
+  ],
+  "indoors": [
+    "read",
+    "write",
+    "sew",
+    "watch movies"
+  ]
+}
