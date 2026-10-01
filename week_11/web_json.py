@@ -22,4 +22,5 @@ for dict in stock_dct:
 
 print(data)
 data = data[::-1]
+print("reversed", data)
 
