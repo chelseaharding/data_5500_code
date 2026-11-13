@@ -4,10 +4,12 @@ Processing Json
 
 import requests
 import json
+import os
 
+api_key = os.getenv("ALPHAVANTAGE_API_KEY")
 
 ticker = 'aapl'
-url = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol="+ticker+"&apikey=NG9C9EPVYBMQT0C8"
+url = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol="+ticker+"&apikey="+api_key
 request = requests.get(url)
 
 request_dict = json.loads(request.text)
