@@ -1,24 +1,30 @@
+"""
+Processing Json
+"""
+
 import requests
 import json
 
 
-ticker = 'AAPL'
-url = 'http://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol='+ticker+'&apikey=NG9C9EPVYBMQT0C8'
-req = requests.get(url)
+ticker = 'aapl'
+url = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol="+ticker+"&apikey=NG9C9EPVYBMQT0C8"
+request = requests.get(url)
 
-req_dict = json.loads(req.text)
+request_dict = json.loads(request.text)
+# print(request_dict)
 
-print(req_dict.keys())
+key1 = "Time Series (Daily)"
+# key2 = "2026-11-13" # I need all the dates??
+key3 = "4. close"
 
-key1 = "Time Series (Daily)" # dictionary with all prices by date
-key2 = '4. close'
+# print(request_dict[key1].keys())
 
-csv_file = open(ticker + ".csv", "w")
+# open a csv file
+csv_file = open("/workspaces/data_5500_code/week_13/"+ticker+".csv", "w")
 
-write_lines = []
-for date in req_dict[key1]: #this is how you get all the dates as keys to look up data
-    # print(date + "," + req_dict[key1][date][key2]) 
-    write_lines.append(date + "," + req_dict[key1][date][key2]+"\n")
-    
-csv_file.writelines(write_lines[::-1])
-csv_file.close()
+lines = []
+for date in request_dict[key1].keys():
+    lines.append(str(date+", "+request_dict[key1][date][key3]+"\n"))
+
+lines = lines[::-1]
+csv_file.writelines(lines)
